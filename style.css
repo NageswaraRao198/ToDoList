@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    text-align: center;
+}
+h1{
+    padding: 2%;
+}
+.input-container{
+    /* display: inline; */
+    text-align: center;
+
+}
+.container-input{
+    background-color: aqua;
+    border: 1px solid blue;
+    width: 50%;
+}
+.input-con{
+    color: black;
+    font-weight: bold;
+    font-size: large;
+    padding: 0.5%;
+}
+#add-btn{
+    margin: 1%;
+}
+#description{
+    height: 80px;
+    width: 500px;
+    display: inline;
+}
+.description{
+    text-align: center;
+    justify-content: center;
+}
+
+.table-element{
+    border: 2px solid rgb(7, 235, 49);
+    text-align: center;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+label{
+    display: block;
+}
+
+.buttons i{
+    width: 25px;
+    border: none;
+    padding: 1% 0;
+}
+.buttons{
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.completed-div{
+    background-color: green;
+    text-align: center;
+}
+.No-Lists{
+    text-align: center;
+    padding: 1%;
+    margin: auto;
+    margin-top: 1%;
+    width: 50%;
+    background-color: rgb(182, 193, 216);
+    border-radius: 100%;
+}
+@media (max-width : 600px ) and (min-width : 430px){
+    #description{
+        height: 80px;
+        width: 400px;
+    }
+}
+@media (max-width : 430px ){
+    #description{
+        height: 80px;
+        width: 300px;
+    }
+}
